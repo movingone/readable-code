@@ -9,7 +9,7 @@ public class StudyCafeSeatPass implements StudyCafePass {
   private final int price;
   private final double discountRate;
 
-  private StudyCafeSeatPass(StudyCafePassType passType, int duration, int price, double discountRate) {
+  public StudyCafeSeatPass(StudyCafePassType passType, int duration, int price, double discountRate) {
     this.passType = passType;
     this.duration = duration;
     this.price = price;
